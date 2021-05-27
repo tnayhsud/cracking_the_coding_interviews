@@ -1,0 +1,10 @@
+1. 	Initialize the local directory as a Git repository.
+	$ git init -b main
+2. 	Add the files in your new local repository.
+	$ git add .
+3. 	Commit the files
+	$ git commit -m "First commit"
+4. 	$ git remote add origin  <REMOTE_URL>
+5. 	$ git remote -v # Verifies the new remote URL
+6. 	Push the changes
+	$ git push -u origin main
